@@ -28,7 +28,6 @@ export class Interceptors {
                 console.error(err);
             }
         );
-
         // 响应拦截器
         this.instance.interceptors.response.use(
             (response) => {/**
